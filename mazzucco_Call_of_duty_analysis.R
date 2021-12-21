@@ -1,3 +1,6 @@
+
+#First let's import libraries that are useful for the purpose of the project
+
 #Set working directory
 setwd("~/CLass Solution/Text Data/hult_NLP_student_tommaso/cases/Call of Duty E-Sport/teamTimeline")
 #Libraries
@@ -25,7 +28,7 @@ library(radarchart)
 library(gridExtra) 
 library(stringi)
 
-#supporting functions
+# building supporting functions
 #source('~/Desktop/hult_NLP_student/lessons/Z_otherScripts/ZZZ_supportingFunctions.R')
 #emoji <- read.csv('emojis.csv')
 #stopwords
@@ -86,7 +89,6 @@ hashtags_TDM  <- TermDocumentMatrix(hashtags_teams,
 hashtags_matrix <- as.matrix(hashtags_TDM)
 
 
-#'?'
 
 #row sum for hashtags
 cod_sum_hashtags <- sort(rowSums(hashtags_matrix), decreasing = TRUE)
@@ -96,6 +98,11 @@ cod_sum_TDM <- sort(rowSums(cod_TDMm), decreasing = TRUE)
 cod_sum_TDM   <- data.frame(word = names(cod_sum_TDM), freq = cod_sum_TDM)
 
 
+                       
+                       
+ #lets create plots and graphs                     
+                       
+                       
 #General word cloud
 set.seed(1234)
 wordcloud(cod_sum_TDM$word,
