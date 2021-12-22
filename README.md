@@ -1,4 +1,4 @@
-# R_project NBA FAN TWEETS
+# R_Project Call of Duty League
 This project is about Text Analytics with Natural Processing Language on R. Specifically I was tasked to analyze millions of tweets regarding the Call of Duty League, filtered and grouped by tweets by fans and from the official accounts of the teams. I chose to analyze the tweets of two competing teams from the same city (Los Angeles) that have a significant difference in number of followers and wanted to analyze how the audience reacted to their games and analyze their sentiments.
 
 
