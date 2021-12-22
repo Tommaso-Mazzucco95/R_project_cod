@@ -8,3 +8,5 @@ The code is divided into four main parts
 2) Data cleaning - focusing on specific words that filter out unnecessary topics ("stopwords")
 3) Organizing the data through matrixes to create plots later on
 4) Creating Plots (word cloud, most frequent words, sentiment analysis)
+
+Here you can find my video presentation on the topic, where I explianed how I analysed the data and the content of my findings [Call of duty Presentation](https://github.com/Tommaso-Mazzucco95/R_Project_NBA.)
