@@ -1,6 +1,6 @@
 # R_project NBA FAN TWEETS
-This project is about Text Analytics with Natural Processing Language on R. Specifically I was tasked to analyze millions of tweets regarding the NBA, grouped by month. I chose to analyze the tweets of february since that month happened the "All-Star Game" and wanted to analyze how the audience reacted to it.
-Furthermore, I analyzed the so called "beef" between two players, Antetoukompo representing Nike and James Harden representing Adidas, and assessed how the two brands were affected by this.
+This project is about Text Analytics with Natural Processing Language on R. Specifically I was tasked to analyze millions of tweets regarding the Call of Duty League, filtered and grouped by tweets by fans and from the official accounts of the teams. I chose to analyze the tweets of two competing teams from the same city (Los Angeles) that have a significant difference in number of followers and wanted to analyze how the audience reacted to their games and analyze their sentiments.
+
 
 The code is divided into four main parts
 
